@@ -33,13 +33,25 @@
     flex: 4;
     justify-content: flex-end;
 }
-.four{
+
+.four {
     display: flex;
     justify-content: center;
 }
-form{
+
+form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.five {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.aFive{
+    width: 360px;
+
 }
