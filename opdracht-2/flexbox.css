@@ -13,3 +13,23 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+.three {
+    display: flex;
+}
+
+.three ul {
+    display: flex;
+    flex: 2;
+}
+
+.three li {
+    display: flex;
+    flex: auto;
+}
+
+.Edhub {
+    display: flex;
+    flex: 4;
+    justify-content: flex-end;
+}
