@@ -48,9 +48,16 @@ form {
 .five {
     display: flex;
     flex-wrap: wrap;
+    flex: 1 0 auto;
+
 
 }
-.aFive{
-    width: 360px;
 
+.aFive {
+    flex: 1 0 360px;
+        /*    !*Minimale breedte 1/3 van 1200 = 400.*/
+    /*    Padding is 20px. 2*20px = 40px. Dit kun je vinden in styles.css of dev tools in chrome.*/
+    /*    400 - 40 = 360px.*/
+    /*    breedte per vlak moet dus 360px als je corrigeert voor padding.*/
+    /*     *!*/
 }

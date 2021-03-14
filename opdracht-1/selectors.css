@@ -22,11 +22,11 @@ ul {
 
 /* 1.4 Haal de text-decoration van navigatie-links weg, geef onbezochte links de kleur hsl(359, 79%, 56%) en verander de kleur wanneer de gebruiker er overheen hovert. */
 nav a:hover {
-    color: hsl(356,65%,47%);
+    color: hsl(149,100%, 28%);
 }
 
 nav a {
-    color: hsl(149,100%,28%);
+    color: hsl(359, 79%, 56%);
 }
 
 
@@ -43,7 +43,9 @@ main a:visited {
 
 /* Verander de achtergrond van de SignUp button. Tip: https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors  */
 input[type=submit] {
-    background-color: hsl(0, 0%, 100%);
+    /*Hij was natuurlijk al wit maar met de andere aanpassingen
+    past dit het beste:)*/
+    background-color: hsl(0,0%, 100%);
     border-color: hsl(149,100%, 28%);
     border-width: thick;
     border-radius: 35px;
