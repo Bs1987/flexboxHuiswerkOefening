@@ -22,11 +22,11 @@ ul {
 
 /* 1.4 Haal de text-decoration van navigatie-links weg, geef onbezochte links de kleur hsl(359, 79%, 56%) en verander de kleur wanneer de gebruiker er overheen hovert. */
 nav a:hover {
-    color: hsl(359, 79%, 80%);
+    color: hsl(356,65%,47%);
 }
 
 nav a {
-    color: hsl(359, 79%, 56%);
+    color: hsl(149,100%,28%);
 }
 
 
@@ -34,20 +34,20 @@ nav a {
 
 
 main a:hover {
-    color: hsl(120, 100%, 25%);
+    color: hsl(149,100%, 28%);
 }
 
 main a:visited {
-    color: hsl(0, 100%, 60%);
+    color: hsl(356,65%,47%);
 }
 
 /* Verander de achtergrond van de SignUp button. Tip: https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors  */
 input[type=submit] {
-    background-color: white;
-    border-color: green;
+    background-color: hsl(0, 0%, 100%);
+    border-color: hsl(149,100%, 28%);
     border-width: thick;
     border-radius: 35px;
-    color: red;
+    color: hsl(356,65%,47%);
     font-weight: bold;
 }
 
