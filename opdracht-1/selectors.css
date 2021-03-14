@@ -34,7 +34,7 @@ nav a {
 
 
 main a:hover {
-    color: hsl(0, 100%, 27%);
+    color: hsl(120, 100%, 25%);
 }
 
 main a:visited {
@@ -43,13 +43,21 @@ main a:visited {
 
 /* Verander de achtergrond van de SignUp button. Tip: https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors  */
 input[type=submit] {
-    background-color: hsl(120, 100%, 25%);
+    background-color: white;
+    border-color: green;
+    border-width: thick;
+    border-radius: 35px;
+    color: red;
+    font-weight: bold;
+}
 
+input[type=submit]:focus {
+    outline: transparent;
 }
 
 
 /* Geef het tekst-veld een blauwe rand wanneer hij in focus is */
-input:focus {
+input[type=text]:focus {
     outline-color: hsl(240, 100%, 50%);
 }
 
